@@ -1,0 +1,4 @@
+.openshift/*
+Jenkinsfile
+.dockerignore
+.git/*
