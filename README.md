@@ -32,7 +32,7 @@
 
 - site seems to load fine
 
-## 23:15 - Drupal
+## 23:15 - Docker
 
 - This was around 23:15, back to docker
 
@@ -52,7 +52,7 @@
 
 - Added php to docker-compose, started OK but it wasn't communicating, although I'd added links to php.
 
-- Following nginx config file spotted fastcgi_pass ${NGINX_FASTCGI_PASS}:9000;, hmmm ok, added an ENV variable to Dockerfile.nginx and rebuilt the image, it worked! But I had to change the dockerfile, there should be another way.
+- Following nginx config file spotted fastcgi_pass `${NGINX_FASTCGI_PASS}:9000;`, hmmm ok, added an ENV variable to Dockerfile.nginx and rebuilt the image, it worked! But I had to change the dockerfile, there should be another way.
 
 - Found the container-entrypoint script in the nginx container that was translating the env var.
 
@@ -60,7 +60,7 @@
 
 ## 00:15 - Docker networking
 
-- By now it had been working for a hilw, was tidying up a few things and preparing for delivery, one thing I wasn't sure about the requirement was if the static ip as per the screenshot was something I should also add (192.168.99.100) but I thought it should be perfectly possible, so on to that.
+- By now it had been working for a while, was tidying up a few things and preparing for delivery, one thing I wasn't sure about the requirement was if the static ip as per the screenshot was something I should also add (192.168.99.100) but I thought it should be perfectly possible, so on to that.
 
 - Found about networking config and all, starting doing tests but there was no way I could make it work.
 
