@@ -28,7 +28,7 @@
 
 - Grep'ed for those comments and fixed all.settings.php, added missing php starting tag
 
-- `` `drush sql-connect` < ~/drush-backups/20170202193132/20170202_193132.sql to ring the backup database.``
+- `` `drush sql-connect` < ~/drush-backups/20170202193132/20170202_193132.sql`` to bring the backup database up.
 
 - site seems to load fine
 
