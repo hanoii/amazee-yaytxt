@@ -71,6 +71,6 @@
 
 ## 10:15 - Start to compile the notes and setup the repository for delivery
 
-## 11:00 - Finished compiling notes and sent email!
+## 11:10 - Finished compiling notes and sent email!
 
 # Thanks!
